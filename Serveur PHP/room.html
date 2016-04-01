@@ -1,0 +1,56 @@
+<script>
+	function getQuerystring(key, default_) {
+	  if (default_==null) default_=""; 
+	  key = key.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+	  var regex = new RegExp("[\\?&]"+key+"=([^&#]*)");
+	  var qs = regex.exec(window.location.href);
+	  if(qs == null)
+	    return default_;
+	  else
+	    return qs[1];
+	}
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ROOM</title>
+</head>
+<body>
+	<p><a href="shows.php">Retour au choix des séries</a></p>	
+	<p class="num_room">ID de room : </p>
+	<p class="id_facebook">ID facebook : </p>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://magnhetic.fr/Room/js/script.js"></script>
+	<script>
+		var id_room = getQuerystring('id'), // on récupère le premier paramètre de l'url
+			id_user = getQuerystring('user_id'), // on récupère le deuxième paramètre de l'url
+			// notre champ ou on écrit notre id de room
+			num_room = document.querySelector('.num_room'),
+			// notre champ ou on écrit notre id facebook
+			id_facebook = document.querySelector('.id_facebook');
+		// ecriture des valeurs
+		num_room.innerHTML += id_room;
+		id_facebook.innerHTML += id_user;
+
+		$.ajax({
+        url      : 'inc/basic_show_infos.php?id=' + id_serie,
+        dataType : 'json',
+        success  : function(res){
+            $title.text(res.title);
+            for(var i = 1;i<=res.num_seasons; i++) {
+                // console.log(part);
+                $list_season_tmp += '<li onclick="chSais(\''+part+'\', '+i+', \''+id+'\')">S'+i+'</li>';
+            }
+            $list_season.html($list_season_tmp);
+        },
+        error : function()
+        {
+          console.log('error');
+        }
+    });
+	</script>
+
+</body>
+</html>

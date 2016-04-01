@@ -1,0 +1,1207 @@
+::-webkit-scrollbar              {display:none}
+::-webkit-scrollbar-button       {display:none}
+::-webkit-scrollbar-track        {display:none}
+::-webkit-scrollbar-track-piece  {display:none}
+::-webkit-scrollbar-thumb        {display:none}
+::-webkit-scrollbar-corner       {display:none}
+::-webkit-resizer                {display:none}
+
+::-o-scrollbar              {display:none}
+::-o-scrollbar-button       {display:none}
+::-o-scrollbar-track        {display:none}
+::-o-scrollbar-track-piece  {display:none}
+::-o-scrollbar-thumb        {display:none}
+::-o-scrollbar-corner       {display:none}
+::-o-resizer                {display:none}
+
+::-woz-scrollbar              {display:none}
+::-woz-scrollbar-button       {display:none}
+::-woz-scrollbar-track        {display:none}
+::-woz-scrollbar-track-piece  {display:none}
+::-woz-scrollbar-thumb        {display:none}
+::-woz-scrollbar-corner       {display:none}
+::-woz-resizer                {display:none}
+
+
+
+                /*PARTIE DE JULIEN */
+
+     /*1ERE ETAPE YOUR ROOM*/
+
+.carroussel #rooms{
+    background-image: url(../images/breakingbad.png);
+    background-size: 100%;
+    -webkit-filter: grayscale(60%);
+    -moz-filter: grayscale(60%);
+    -ms-filter: grayscale(60%);
+    -o-filter: grayscale(60%);
+    filter: grayscale(60%);
+    filter: gray;
+
+}
+.carroussel #rooms .timer{
+    font-family: "Gotham";
+    font-weight: 400;
+    color: #17a62e;
+    font-size: 20px;
+    position: relative;
+    margin-top: 10px;
+    left: 75%;
+
+}
+
+.carroussel #rooms h1{
+    font-family: "Gotham";
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+
+.carroussel #rooms .firstroom{
+    background-image: url(../images/houseofcards.png);
+    float: left;
+    width: 500px;
+    height: 250px;
+    margin-left: 70px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.carroussel #rooms .firstroom:hover{
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+.carroussel #rooms .secondroom:hover{
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+
+.carroussel #rooms .secondroom{
+    background-image: url(../images/houseofcards.png);
+    float: right;
+    width: 500px;
+    height: 250px;
+    margin-right: 70px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.firstroom .legend{
+    width: 100%;
+    height: 33.3%;
+    background-color: #070707;
+    background-color: rgba(7, 7, 7, 0.35);
+    top: 54%;
+    position: relative;
+    border-top: 1px solid #3d3d40;
+}
+
+
+
+.secondroom .legend{
+    width: 100%;
+    height: 33.3%;
+    background-color: #070707;
+    background-color: rgba(7, 7, 7, 0.35);
+    top: 54%;
+    position: relative;
+    border-top: 1px solid #3d3d40;
+
+}
+
+#rooms .legend h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+    font-family: "Gotham";
+    font-weight: 300;
+    position: relative;
+    top: 20%;
+    margin-left: 30px;
+}
+
+#rooms .legend p{
+    font-size: 20px;
+    font-family: "Gotham";
+    font-style: italic;
+    color: #d9d5d5;
+    position: relative;
+    top: 22%;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+
+        /*2ND PARTIE = MOSTVIEWS*/
+
+.carroussel #mostViews{
+    background-image: url(../images/bigbang.png);
+    background-size: 100%;
+}
+
+#mostViews .black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+
+
+}
+
+ul #mostViews h1{
+    font-family: "Gotham";
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#mostViews .black .result{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(56%);
+    -moz-transform: translateX(-50%) translateY(56%);
+    -ms-transform: translateX(-50%) translateY(56%);
+    -o-transform: translateX(-50%) translateY(56%);
+    transform: translateX(-50%) translateY(56%)
+
+}
+
+#mostViews .black .result .second{
+    background-color: rgba(91,94,97,0.78);
+    width: 50px;
+    height: 255px;
+    display: inline-block;
+    margin-right: 30px;
+    transition: 0.5s ease;
+}
+
+#mostViews .black .result .second:hover{
+    background-color: rgba(91,94,97,1);
+}
+
+#mostViews .black .result .first{
+    background-color: rgba(235,33,46, 0.78);
+    width: 50px;
+    height: 280px;
+    display: inline-block;
+    margin-right: 30px;
+    transition: 0.5s ease;
+}
+
+#mostViews .black .result .first:hover{
+    background-color: rgba(235,33,46, 1);
+}
+
+#mostViews .black .result .third{
+    width: 50px;
+    height: 190px;
+    display: inline-block;
+    background-color: rgba(200,201,201, 0.6);
+    transition: 0.5s ease;
+}
+
+#mostViews .black .result .third:hover{
+    background-color: rgba(200,201,201, 1);
+
+}
+
+#mostViews .black .result h2{
+    font-family: "Gotham";
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+}
+
+#mostViews .black .result #namesecond{
+    left: -40%;
+    top: 20%;
+}
+
+#mostViews .black .result #namefirst{
+    width: 115%;
+    top: -20%;
+
+}
+
+#mostViews .black .result #namethird{
+    left: 120%;
+    top: 40%;
+    width: 100%;
+
+}
+
+
+        /*3EME PARTIE = SEARCH*/
+
+#search .search{
+    width: 50%;
+    float: right;
+}
+
+#search .search input{
+    border: none;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    margin-top: 25%;
+}
+
+#search .search input[type="text"]{
+    font-size: 70px;
+    font-family: "Gotham";
+    font-weight: 100;
+    color: #dbdada;
+}
+#search .img{
+    width: 50%;
+    float: left;
+}
+
+#search .img img{
+    width: 150%;
+    margin-top: -200px;
+}
+
+
+        /*FIN CSS JULIEN */
+
+        
+/****** CONNECTION ******/
+body.login{
+    background-image: url(../images/bg_connect.png);
+}
+
+body.login footer {
+    position : absolute;
+}
+.login .center{
+    margin:auto;
+    width:60%;
+    height:100%;
+    text-align: center;
+}
+body.login .center .logo{
+    height:88px;
+    width:376px;
+    margin: auto;
+    margin-top:15%;
+    background-image: url(../images/logo_big.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login h1{
+    color:#3f454e;
+    font-size: 1.5em;
+    font-family: 'Gotham Pro Medium';
+    padding:55px 0px;
+}
+.login .fbC{
+    background-color:#4482d0;
+    font-family: 'Gotham Pro Black';
+    text-transform: uppercase;
+    color:white;
+    padding:23px 20px;
+    border:none;
+    text-decoration: none;
+}
+
+
+
+/****** BANNIERE ******/
+.header{
+    bakground-color:white;
+    height:74px;
+    width:100%;
+}
+.series header .logo{
+    height:24px;
+    width:96px;
+    background-image: url(../images/mini_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:24px 30px;
+    display:inline-block;
+    float:left;
+}
+.series header .nav{
+    text-align:center;
+    display:inline-block;
+    padding:24px 30px;
+    margin-left: 31%;
+}
+.series header .nav li{
+    cursor: pointer;
+    height:20px;
+    width:30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin:0px 10px;
+    position: relative;
+}
+.series header .nav li::after{
+    content:"";
+    width:150%;
+    display: block;
+    height:10px;
+    background-color: #d8232a;
+    padding:4px 8px;
+    font-size: 0.6em;
+    position: absolute;
+    top:20px;
+    left:-15px;
+    color:white;
+    font-family: 'Gotham Pro Medium';
+    text-transform:uppercase;
+    border-radius: 4px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.series header .nav li:hover::after{
+    opacity: 1;
+    top:25px;
+}
+.series header .nav .rooms{background-image: url(../images/icons/R.png)}
+.series header .nav .programm{background-image: url(../images/icons/moon.png)}
+.series header .nav .mostViews{background-image: url(../images/icons/eye2.png)}
+.series header .nav .search{background-image: url(../images/icons/search.png)}
+
+.series header .nav .rooms.slct{background-image: url(../images/icons/R_h.png)}
+.series header .nav .programm.slct{background-image: url(../images/icons/moon_h.png)}
+.series header .nav .mostViews.slct{background-image: url(../images/icons/eye2_h.png)}
+.series header .nav .search.slct{background-image: url(../images/icons/search_h.png)}
+
+.series header .nav .rooms::after{
+    content:"Your Room";
+    padding-bottom:12px;
+}
+.series header .nav .programm::after{
+    content:"Programm";
+    width:200%;
+    left:-20px;
+}
+.series header .nav .mostViews::after{
+    content:"Most Views";
+    padding-bottom:12px;
+}
+.series header .nav .search::after{
+    content:"Search";
+}
+.series header .profil{
+    display:inline-block;
+    padding:24px 30px;
+    width:15%;
+    float: right;
+}
+.series header .profil #pict{
+    height:25px;
+    width:25px;
+    margin-top:-5px;
+    margin-right:10px;
+    border-radius: 20px;
+    float: left;
+    display: inline-block;
+}
+.series header .profil #name{
+    height:25px;
+    margin:0px 10px;
+    font-family: 'Gotham Pro';
+    font-size: 0.9em;
+    display: inline-block;
+}
+.series header .profil .disconnect{
+    background-image: url(../images/icons/disconnect.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:15px;
+    cursor: pointer;
+    width:16px;
+    display:inline-block;
+    border:none;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+.series .suggestions{
+    height:500px;
+    width:100%;
+    display:block;
+    overflow: hidden;
+    position: relative;
+}
+.series .suggestions .carroussel{
+    height:500px;
+    width:100%;
+    position: relative;
+}
+.series .suggestions .carroussel li{
+    height:500px;
+    width:100%;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+.series .suggestions .carroussel li#rooms.stateA{margin-top:0px;position: relative;}
+.series .suggestions .carroussel li#rooms.stateB{margin-top:-500px;position: relative;}
+.series .suggestions .carroussel li#rooms.stateC{margin-top:-1000px;position: relative;}
+.series .suggestions .carroussel li#rooms.stateD{margin-top:-1500px;position: relative;}
+.series .suggestions .carroussel li#rooms.stateE{margin-top:-2000px;position: relative;}
+
+
+.series .suggestions .carroussel li .top{
+    height:500px;
+    width:100%;
+    position:absolute;
+}
+.series .suggestions .carroussel li .top .pos{
+    padding:210px 40px 210px 40px;
+    text-align: center;
+    display: inline-block;
+    float:left;
+}
+.series .suggestions .carroussel li .top .pos li{
+    height:10px;
+    width:10px;
+    cursor:pointer;
+    background-color:white;
+    margin:auto;
+    margin-bottom:5px;
+    margin-top:5px;
+    border-radius: 20px;
+    vertical-align: middle;
+    transition-duration: 0.2s;
+}
+.series .carroussel .down li.stateA{margin-top:0px;}
+.series .carroussel .down li.stateB{margin-top:-500px;}
+.series .carroussel .down li.stateC{margin-top:-1000px;}
+.series .suggestions .carroussel li .top .pos li.selected{
+    margin-bottom:0px;
+    margin-top:0px;
+    padding:3px;
+    border:2px solid #d8232a;
+}
+.series .suggestions .carroussel li .top .pos li.selected:hover{background-color: white;}
+.series .suggestions .carroussel li .down{
+    height:500px;
+    width:100%;
+    overflow: hidden;
+}
+.series .suggestions .carroussel li .top .anounce{
+    padding-top:180px;
+    margin-right:100px;
+    display: inline-block;
+    width:350px;
+    text-align: center;
+    float:right;
+    color:white;
+    font-family: 'Gotham Pro Black';
+    text-transform: uppercase;
+}
+.series .suggestions .carroussel li .top .anounce h2{font-size:2.3em;}
+.series .suggestions .carroussel li .top .anounce h3{
+    font-size:2.5em;
+    padding:20px;
+    font-family: 'Gotham Pro Medium';
+}
+.series .suggestions .carroussel li .top .anounce input{
+    font-size:0.8em;
+    margin-top:20px;
+    cursor:pointer;
+    padding:10px;
+    font-family: 'Gotham Pro Light';
+    text-transform: uppercase;
+    color:white;
+    background-color: #d8232a;
+    border:none;
+    border-radius:3px;
+}
+
+#GoT{
+    background-image: url(../images/banniereTest.png);
+}
+#walkingdead{
+    background-image: url(../images/banniereWD1.jpg);
+}
+#bigbang{
+    background-image: url(../images/banniereTBT.jpg);
+}
+
+.series .suggestions .carroussel li .down .selection li{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: absolute;
+}
+.series .suggestions .blur{
+    background-image: url(../images/banniereTest.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom:-500px;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+    margin-top:-40px;
+    height:40px;
+    width:100%;
+    
+}
+.series .suggestions .blurup{
+    margin-top:-40px;
+    background-color:rgba(52, 22, 0, 0.6);
+    position: absolute;
+    bottom:-500px;
+    color:white;
+    font-family: 'Gotham Pro Light';
+    text-transform: uppercase;
+    font-size: 0.7em;
+    height:40px;
+    width:100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.series .suggestions .blurup .infoA{
+    width:40%;
+    padding-left:40px;
+    float: left;
+    display: inline-block;
+    padding-top:14px;
+}
+.series .suggestions .blurup .infoA div.col-2{
+    width:49%;
+    display: inline-block;
+}
+.series .suggestions .blurup .infoA #date{color: #d8232a}
+.series .suggestions .blurup .infoA #stars{padding-left:7px;}
+.series .suggestions .blurup .infoA .full,.series .suggestions .blurup .infoA .empty{
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    height:10px;
+    width:10px;
+}
+.series .suggestions .blurup .infoA .full{background-image: url(../images/icons/star_f.png);}
+.series .suggestions .blurup .infoA .empty{background-image: url(../images/icons/star_e.png);}
+.series .suggestions .blurup .infoB{
+    margin-right:40px;
+    float:right;
+    text-align: right;
+    padding-rigth:20px;
+    display: inline-block;
+    padding-top:14px;
+}
+.series .suggestions .blurup .infoB div{
+    width:70px;
+    display: inline-block;
+}
+.series .suggestions .blurup .infoB span::before{
+    content:"";
+    height:10px;
+    width:20px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.series .suggestions .blurup .infoB #connected::before{background-image: url(../images/icons/user.png)}
+.series .suggestions .blurup .infoB #views::before{background-image: url(../images/icons/view.png)}
+
+/****** SELECTIONS DES SERIES ******/
+/*50 7*/
+.listItems{
+    height:100%;
+    width:100%;
+    margin-bottom:50px;
+    background-color: #edeff0;
+}
+.listItems ul.series{
+    padding-top:50px;
+    margin:auto;
+    width:100%;
+    text-align: center;
+}
+.listItems ul.series li{
+    display:inline-block;
+    width:16%;
+    position: relative;
+    margin: 0px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.listItems ul.series li:not(.open:after){
+    overflow: hidden;
+}
+.listItems ul.series li:after{
+    content:"";
+    height:14px;
+    width:28px;
+    display: block;
+    position: absolute;
+    margin-left:45%;
+    margin-top:30px;
+    opacity: 0;
+    background-image: url(../images/icons/target.png);
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.listItems ul.series li.open:after{
+    margin-top:10px;
+    opacity: 1;
+}
+.listItems ul.series li img{
+    width:100%;
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    filter: grayscale(1);
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.listItems ul.series li:hover img{
+    width:100%;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+.listItems ul.series li span.hover{
+    position: absolute;
+    display: block;
+    width:98%;
+    top:0;
+    height:98%;
+    z-index:2;
+    opacity: 0;
+}
+.listItems ul.series li:hover span.hover{
+    border:2px solid rgb(216, 35, 42);
+    opacity: 1;
+}
+.listItems ul.series li span.hover .see{
+    position: absolute;
+    top:-2px;
+    right:-2px;
+    height:10%;
+    width:15%;
+    background-color:#d8232a;
+    background-image: url(../images/icons/eye.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+}
+
+
+/**** Description ****/
+.listItems .cross{
+    position: absolute;
+    margin-left:92%;
+    margin-top:15px;
+    font-family: 'Gotham Pro Black';
+    font-size: 2em;
+    z-index:10;
+    color:#3f454e;
+    display: none;
+    cursor: pointer;
+}
+.listItems .descBlock.open .cross{
+    display:block;
+}
+
+.cross{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.2s ease-out;
+    transform: rotate(45deg);
+}
+
+.cross:before {
+  width: 10px;
+  height: 100%;
+}
+
+.cross:after {
+  height: 10px;
+  width: 100%;
+}
+
+
+.cross:before, .cross:after {
+  content: "";
+  display: block;
+  background: #d8232a;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.cross:hover {
+  cursor: pointer;
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.listItems .descBlock{
+    background-color:white;
+    margin-top:20px;
+    overflow: hidden;
+    width:100%;
+    display: block;
+    height:0px;
+    transition-property: height;
+    transition-duration: 0.5s;
+}
+.listItems .descBlock.open{
+    height:300px;
+}
+.listItems .descBlock .center{
+    width:90%;
+    margin:auto;
+    height:100%;
+}
+.listItems .descBlock .hist{
+    padding:46px 25px 46px 0px;
+    font-family: 'Gotham Pro';
+    color:#3f454e;
+    width:50%;
+    float: left;
+    display: inline-block;
+}
+.listItems .descBlock .hist h1{
+    padding-bottom:18px;
+    font-family: 'Gotham Pro Black';
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+.listItems .descBlock .hist h4{
+    padding-bottom:36px;
+    font-family: 'Gotham Pro Light';
+    font-size: 1.1em;
+    font-style: oblique;
+    float:left;
+}
+.listItems #rank{
+    padding-left:7px;
+    width:110px;
+    display:block;
+}
+.listItems #stars{
+    padding-left:7px;
+}
+.listItems .full,.listItems .empty{
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    height:10px;
+    width:10px;
+}
+.listItems .full{background-image: url(../images/icons/star_f.png);}
+.listItems .empty{background-image: url(../images/icons/star_e.png);}
+.listItems #descpSais{
+    float:left;
+}
+
+.listItems .episodes{
+    width:47%;
+    height:100%;
+    display: inline-block;
+    float:left;
+    overflow-x: scroll;
+    position: relative;
+    font-family: 'Gotham Pro';
+    font-weight: 900;
+}
+.listItems .episodes .listSais{
+    display: inline-block;
+    float:left;
+    background-color:#e25f64;
+    min-height: 100%;
+}
+.listItems .episodes .listSais li{
+    padding:20px;
+    color:white;
+    cursor: pointer;
+}
+.listItems .episodes .listSais li:hover{background-color:#d8232a;}
+.listItems .episodes .listEpi.open{
+    display: block;
+    width:80%;
+    max-width: 89%;
+    padding-left:15px;
+    float:left;
+    height:100%;
+}
+.listItems .episodes .listEpi{
+    height:0%;
+    display: none;
+}
+.listItems .episodes .listEpi li{padding:10px; cursor:pointer; width:100%;}
+.listItems .episodes .listEpi li:hover{background-color:#e25f64; color:white;}
+
+.listItems .episodes .listEpi li:nth-child(2n+1){background-color:#edeff0;}
+
+.listItems .episodes .listEpi li:nth-child(2n+1):hover{background-color:#e25f64; color:white;}
+
+
+.listItems .setup .fen{
+    width:100%;
+    display:block;
+    margin-top:-320px;
+}
+.listItems .setup.open .fen{
+    width:100%;
+    display:block;
+    margin-top:0px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.listItems .setup{
+    width:82%;
+    overflow: hidden;
+    display: inline-block;
+    float:left;
+}
+.listItems .setup .padding{
+    padding:20px;
+    text-align: center;
+}
+.listItems .setup .padding h1{
+    font-size:1.4em;
+    font-family: 'Gotham Pro Black';
+    text-transform: uppercase;
+    padding:16px;
+}
+.listItems .setup .padding form select{
+    border: none;
+}
+.listItems .setup .padding form select{
+    font-size:1em;
+    margin:10px;
+    border:2px solid #9a9a9a;
+    border-radius:4px;
+    font-family: 'Gotham Pro';
+    padding:5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.listItems .setup ::-webkit-input-placeholder {font-style: italic;}
+.listItems .setup :-moz-placeholder {font-style: italic;}/* Firefox 18- */
+.listItems .setup ::-moz-placeholder {font-style: italic;}  /* Firefox 19+ */
+.listItems .setup :-ms-input-placeholder {  font-style: italic; }
+
+.listItems .setup .padding .roomName{
+    border:none;
+    outline: 0;
+    font-size: 1.2em;
+    padding:5px;
+    text-align: center;
+    color :#9a9a9a;
+    font-weight: 900;
+    font-family: 'Gotham Pro';
+}
+.listItems .setup #submit{
+    border: none;
+    background-color:#9a9a9a;
+    color:white;
+    font-family: 'Gotham Pro';
+    padding:10px 15px;
+    border-radius: 4px;
+    font-weight: 700;
+    margin:20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/****** ROOM ******/
+.broom header{
+    background-color:white;
+    height:74px;
+    width:100%;
+    z-index: 2;
+    display: block;
+    position: fixed;
+    top:0;
+}
+.broom header .logo{
+    height:24px;
+    width:96px;
+    background-image: url(../images/mini_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:24px 30px;
+    display:inline-block;
+    float:left;
+}
+.broom header .nav{
+    width:55%;
+    text-align:center;
+    display:inline-block;
+    padding:24px 30px;
+    margin: auto;
+}
+.broom header .nav li{
+    cursor: pointer;
+    height:20px;
+    width:30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin:0px 10px;
+}
+.broom header .nav .rooms{background-image: url(../images/icons/R.png)}
+.broom header .nav .programm{background-image: url(../images/icons/moon.png)}
+.broom header .nav .mostViews{background-image: url(../images/icons/eye2.png)}
+.broom header .nav .search{background-image: url(../images/icons/search.png)}
+.broom header .profil{
+    display:inline-block;
+    padding:24px 30px;
+    width:15%;
+    float: right;
+}
+.broom header .profil #pict{
+    height:25px;
+    width:25px;
+    margin-top:-5px;
+    margin-right:10px;
+    border-radius: 20px;
+    float: left;
+    display: inline-block;
+}
+.broom header .profil #name{
+    height:25px;
+    margin:0px 10px;
+    font-family: 'Gotham Pro';
+    font-size: 0.9em;
+    display: inline-block;
+}
+.broom header .profil .disconnect{
+    background-image: url(../images/icons/disconnect.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:15px;
+    cursor: pointer;
+    width:16px;
+    display:inline-block;
+    border:none;
+    background-color:rgba(255, 255, 255, 0);
+}
+.room{
+    margin-top:74px;
+    display: block;
+    width:100%;
+    background-color:#edeff0;
+    overflow: scroll;
+}
+.room .series{
+    width:75%;
+    float:left;
+    display: inline-block;
+    font-family: 'Gotham Pro';
+    background-color:#edeff0;
+    overflow: scroll;
+}
+.room .series .content{padding:30px; overflow: scroll;}
+.room .series h1{
+    font-family: 'Gotham Pro Black';
+    text-transform: uppercase;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+.room .series h1 span{
+    text-transform: lowercase;
+    padding-left:20px;
+    font-family: 'Gotham Pro Light';
+    text-transform: uppercase;
+    font-size: 0.5em;
+}
+.room .series img{
+    width:80%;
+    -webkit-filter: blur(1.5px);
+}
+.room .series #timer{
+    position: absolute;
+    margin-top:-300px;
+    color:white;
+    width:770px;
+    text-align: center;
+    font-family: 'Gotham Pro';
+    font-size: 2em;
+}
+.room .series #timer #time{
+    font-family: 'Gotham Pro Black';
+    font-size: 1.5em;
+}
+.room .series .hist{
+    overflow: scroll
+}
+.room .series .hist .head{
+    display: block;
+    margin-bottom:18px;
+}
+.room .series .hist h4{
+    font-size: 1.6em;
+    margin-top:15px;
+    display: inline-block;
+}
+.room .series .hist #rank{
+    font-size: 1.6em;
+    margin-top:15px;
+    margin-left:15px;
+    display: inline-block;
+}
+.room .series .hist #rank #stars .full, .room .series .hist #rank #stars .empty{
+    height:14px;
+    width:14px;
+    display: inline-block;
+}
+.room .series .hist #rank #stars .full{background-image: url(../images/icons/star_f.png)}
+.room .series .hist #rank #stars .empty{background-image: url(../images/icons/star_e.png)}
+.room .series h2{
+    font-size: 1.2em;
+    padding-bottom:22px;
+}
+.room .series p{
+    width:60%;
+}
+
+.room .chat{
+    width:25%;
+    vertical-align: top;
+    display: inline-block;
+    background-color:#3e3f40;
+    text-align: right;
+    position: fixed;
+    height: 100%;
+}
+.room .chat input{
+    bottom:0px;
+}
+.room .chat ul{padding:10px;}
+.room .chat ul li{margin:5px;}
+.room .chat ul li .bulle .pseudo{font-family: Gotham Pro Black}
+.room .chat ul li .bulle{
+    background-color: white;
+    padding:5px;
+    border-radius: 5px;
+    text-align: right;
+    margin-right:17px;
+    max-width: 65%;
+    font-family: 'Gotham Pro';
+    color:#3e3f40;
+    display: inline-block;
+}
+.room .chat ul li .bulle::after{
+    content:"";
+    height:9px;
+    width:8px;
+    margin-right:-12px;
+    margin-top:-10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/arrowR.png);
+}
+.room .chat ul li .profilchat{
+    display: inline-block;
+    border-radius: 4px;
+    height:40px;
+    width:40px;
+    overflow: hidden;
+}
+.room .chat ul li .profilchat img{
+    width:100%;
+}
+.room .chat input{
+    width:17%;
+    bottom:20px;
+    right:20px;
+    display: block;
+    text-align: right;
+    color:#edeff0;
+    background-color: rgba(255, 255, 255, 0);
+    border:none;
+    border-bottom: 1px solid #6f7070;
+    border-right: 1px solid #6f7070;
+    padding:0px 5px 3px 0px;
+    outline: 0;
+    position: fixed;
+    z-index:5;
+}
+.room .chat ::-webkit-input-placeholder {font-style: italic;}
+.room .chat :-moz-placeholder {font-style: italic;}/* Firefox 18- */
+.room .chat ::-moz-placeholder {font-style: italic;}  /* Firefox 19+ */
+.room .chat :-ms-input-placeholder {  font-style: italic; }
+
+
+
+/***** FOOTER *****/
+footer{
+    bottom: 0px;
+    width:100%;
+    height:42px;
+    background-color:white;
+    border-top:1px solid #d8232a;
+}
+footer ul{
+    padding:15px;
+    margin-left:55px;
+    margin-right:55px;
+}
+footer ul li{
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Gotham Pro Light';
+}
+footer ul li a{
+    color:#ababab;
+    font-size:0.8em;
+    margin-right:30px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color:#d8232a;
+}
+footer ul li.logo{
+    width:96px;
+    height:24px;
+    display: inline-block;
+    float:right;
+}
+footer ul li.logo a{
+    width:96px;
+    height:24px;
+    margin-top: -6px;
+    display: block;
+    background-image: url(../images/mini_logo.png);
+}

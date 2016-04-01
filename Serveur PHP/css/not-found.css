@@ -1,0 +1,72 @@
+/****** PAGE 404 ******/
+body .error{
+    background-color:white;
+
+}
+.error .center{
+    margin:auto;
+    width:100%;
+    height:100%;
+    text-align:right;
+
+}
+.error .homer{
+    bottom: 0%;
+    position: absolute;
+    float: left;
+    margin-left: 50px;
+}
+.content h1{
+    color:#414141;
+    font-size:9.3em;
+    padding:20px 0px;
+    font-family: 'Gotham Pro Black';
+    text-transform: uppercase;
+    font-weight:bold;
+    line-height: 80px;
+}
+.content h2{
+    color:#d8232a;
+    font-family: 'Gotham Pro Medium';
+    font-size:3.75em;
+    text-transform: uppercase;
+    font-weight:lighter;
+    margin-bottom: 50px;
+}
+.content .first{
+    color:#414141;
+    font-family: 'Gotham Pro Light';
+    font-size:2.5em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.content p {
+    color:#414141;
+    font-family: 'Gotham Pro Light';
+    font-size:2.5em;
+    text-transform: uppercase;
+}
+.content p a{
+    color:#d8232a;
+    font-family: 'Gotham Pro Light';
+    
+    text-transform: uppercase;
+    text-decoration:none;
+
+}
+
+.content{
+    float: right;
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
